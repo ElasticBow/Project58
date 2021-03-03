@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    background: linear-gradient(#33ccff 0%, #66ffcc 100%);
+    background-repeat: no repeat;
+}
+
+img {
+    border-radius: 50%;
+    width: 300px;
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    position: absolute;
+    float: right;
+    top: 10px;
+    right: 30px;
+    z-index: 10 cursor: pointer;
+    color: black;
+}
+
+#section1 {
+    background: linear-gradient(##cc00ff 0%, #ff0066 100%);
+    background-repeat: repeat;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Stick', sans-serif;
+}
+
+.links:hover {
+    background-color: floralwhite
+}
+#apps {
+width: 100%;
+    height: 800px;
+    background-color: aliceblue;
+}
+.line {
+    height: 6px;
+    background-color: #00ff00;
+    width: 70px;
+    margin: 8px auto;
+}
+#game {
+    width: 100%;
+    height: 800px;
+    background-color:aquamarine;
+}
+img {
+    transition: transform .2s;    
+}
+img:hover {
+    transform: scale(0.9);
+}
